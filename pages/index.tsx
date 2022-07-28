@@ -17,7 +17,7 @@ export const getServerSideProps = async () => {
 
 export default function Home({ randWord }) {
 
-  const [randHello, setRandHello] = useState('Hello');
+  const [randHello, setRandHello] = useState('Hello World');
 
   function randomHello() {
     const listofHellos = [
