@@ -14,6 +14,8 @@ export const getServerSideProps = async () => {
   };
 };
 
+//here is a comment to show how git works
+
 
 export default function Home({ randWord }) {
 
